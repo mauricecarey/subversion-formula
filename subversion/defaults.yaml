@@ -1,0 +1,14 @@
+subversion:
+  package_name: subversion
+  repo_parent_path: /svn/repos
+  user: www-data
+  group: www-data
+  repo_name:
+  server:
+    apache_sites: /etc/apache2/sites-available
+    web_context: /svn
+    password_file: /etc/svnpasswd
+    site_name: svn
+    package_name: apache2
+    user: test
+    password: test

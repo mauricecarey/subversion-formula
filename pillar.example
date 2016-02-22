@@ -1,0 +1,5 @@
+subversion:
+  repo_name: testrepo
+  server:
+    user: test
+    password: test

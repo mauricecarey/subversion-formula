@@ -1,0 +1,2 @@
+{% import_yaml "subversion/defaults.yaml" as defaults %}
+{% set subversion = salt['pillar.get']('subversion', defaults.subversion, merge=True) %}
